@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { useRef } from "react";
 import './app.css'
+import Jumagul from "./jumagul";
 
 
 
@@ -40,6 +41,7 @@ const buttonClick = ()=>{
           <button onClick={buttonClick}>Add Users</button>
         </label>
       </form>
+      <Jumagul />
     </div>
   )
 }
